@@ -76,7 +76,7 @@ for(var i = 0; i < squares.length; i++) {
 			changeColors(pickedColor);
 			messageDisplay.textContent = "Correct!";
 			resetButton.textContent = "Play Again?";
-			alert("YOU WON!");
+			// alert("YOU WON!");
 		} else {
 			this.style.backgroundColor = "#232323";
 			messageDisplay.textContent = "Try Again";
